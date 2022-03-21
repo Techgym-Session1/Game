@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  background-color: #fff;
+  height: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+
+  position: absolute;
+  background-color: #fff;
+  width: 35.2rem;
+  height: 46.4rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swipe {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.card__container {
+  width: auto;
+  height: 46.4rem;
+}
+
+.card__image {
+  background-color: #C4C4C4;
+  flex: 5;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.8rem;
+  margin: 0;
+
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  color: var(--color-primary);
+  flex: 1;
+}
+
+.swipe:last-of-type {
+
+}
+

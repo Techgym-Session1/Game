@@ -1,0 +1,32 @@
+.login {
+  padding: 15.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .button {
+    margin-top: 11.2rem;
+  }
+}
+
+.login__inputs {
+  margin-bottom: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .text-input {
+    margin-bottom: 2.4rem;
+    &:nth-last-child(1) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.login__quote {
+  margin-top: 0;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  color: var(--color-white);
+  margin-bottom: 3.6rem;
+}
