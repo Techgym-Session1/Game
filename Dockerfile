@@ -1,4 +1,4 @@
-# 1. Importa l'immagine node:lts-alpine come 'build-stage'
+# 1. Importa l'immagine node:lts-alpine
 
 
 # 2. Copia il file package.json all'interno del container
